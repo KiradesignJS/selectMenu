@@ -5,8 +5,7 @@ options = wrapper.querySelector(".options");
 
 //array of countries
 let countries = ["Albania", "Argentina", "Bahrain", "Belgium", "Brazil","Canada", "Denmark", "Finland","Georgia",
-                 "Honduras", "Indonesia","Kyrgyzstan", "Malawi", "Maldives","Namibia", "Palau", "Slovakia","Togo", "Uruguay", 
-                 "Venezuela","Yemen", "Zambia", "Zimbabwe"];
+                 "Honduras", "Indonesia","Kyrgyzstan", "Malawi", "Maldives","Namibia", "Palau", "Slovakia","Togo", "Uruguay", "Venezuela","Yemen", "Zambia", "Zimbabwe"];
 
 function addCountry(selectedCountry) {
   options.innerHTML = "";
